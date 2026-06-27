@@ -4,18 +4,18 @@ cask "sarde" do
 
   on_macos do
     on_intel do
-      sha256 "563f29eaf11bd8393da15d39f1208652d4ae67bba9dc108fd36f056dc20ec731"
+      sha256 "a10089396722ec5e10c79ab6fdea9c41b65213586c6e853743033cc93945526a"
       url "https://github.com/getsarde/sarde/releases/download/v#{version}/sarde_darwin_amd64.tar.gz"
     end
     on_arm do
-      sha256 "5b87f3bac49dfc0b65a8e810fe41481de362716f2a4165a00cda9de463548910"
+      sha256 "cb6168a185a00af4838a82464205477cd6145b3a45f8fa3186f474e50d8f7ee6"
       url "https://github.com/getsarde/sarde/releases/download/v#{version}/sarde_darwin_arm64.tar.gz"
     end
   end
 
   on_linux do
     on_intel do
-      sha256 "24894bcbf1141d2de6542043927d3ab11f7bd97a89fe189682dd60467edad171"
+      sha256 "54ef35bc124cad7ac3b100cd7f63086832167ba04973b099d347f6dd908a3a50"
       url "https://github.com/getsarde/sarde/releases/download/v#{version}/sarde_linux_amd64.tar.gz"
     end
   end
